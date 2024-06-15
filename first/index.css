@@ -88,35 +88,55 @@ h6 {
 }
 
 
-.ex-marg{
-    width: 611px;
-    height: 64px;
-    margin: 20px 0;
-    line-height: 1.5    ;
-}
-.ex_dysp-block{
+.purple{
     display: block;
-    margin: 0 0 20px 0;
+    margin: 50px auto;
+    background-color: blueviolet;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all linear 1000ms;
 }
-.ex-padd{
-    padding: 0 0 20px 0;
+.purple:hover{
+    color: black;
+    opacity: 0.3;
 }
-.ex-left{
-    display: inline-block;
-    margin-right: 20px;
-}
-.ex-center{
-    display: inline-block; 
-    margin-bottom: 20px;
-}
-.span-padd{
-    display: inline-block;
-    padding: 0 20px 20px 20px; 
-}
-.ex-padd-lr{
-    display: inline-block;
-}
-.ex-pad-vn{
+
+.red{
     display: block;
-    padding: 30px 0;
+    margin: 100px auto;
+    background-color: red;
+    /* width: 100px;
+    height: 80px; */
+    padding: 20px 40px;
+    border-radius: 5px;
+    transition: all linear 300ms;
+}
+.red-button{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin: 20px 30px;
+   }
+.red:hover{
+    background-color: yellow;
+    outline: 5px solid black;
+}
+input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+input:hover{
+    border: 2px solid black;
+    ;
+}
+form{
+    margin: 0 auto;
+    width: 70%;
+    border: 3px solid green;
+    background-color: yellow;
 }
