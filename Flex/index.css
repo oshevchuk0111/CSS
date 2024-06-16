@@ -15,7 +15,6 @@
     outline: none;
 }
 
-a:focus;
 
 a:active {
     outline: none;
@@ -87,43 +86,33 @@ h6 {
     font-weight: 400;
 }
 
-.list{
-    font-style: 18px;
-}
-.list li{
-    margin: 0px 0px 10px 0px;
-    position: relative;
-    padding: 0 0 0 30px;
 
-}
-.list li:before{
-    content: '';
-    background: url(img/youtube.png) 0 0 no-repeat;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 4px;
-    left: 0;
+.container {
+    background-color: gray;
+    display: flex;
+    
+  
+    
 }
 
-.example{
-    background-color: red;
-    width: 150px;
-    height: 50px;
-    margin: 150px auto;
-    position: relative;
+.box {
+    font-size: 25px;
+    padding: 30px;
+    border: 2px solid black;
+    height: fit-content;
+    width: fit-content;
+    /* flex-grow: 1; */
 }
 
-.example:before{
-    content: "!@#BEFORE";
-    top: -10px;
-    left: -150px;
-    position: absolute;
+.item_1 {
+    background-color: white;
+    
 }
 
-.example:after{
-    position: absolute;
-    content: "!@#AFTER";
-    top: 10px;
-    left: 150px;
+.item_2 {
+    background-color: pink;
+}
+
+.item_3 {
+    background-color: green;
 }
